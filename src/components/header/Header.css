@@ -1,0 +1,100 @@
+.header .container{
+
+    height: 40vw;
+    width: 30px auto;
+    background: url(header_img.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-top: 50px;
+}
+
+.header-content{
+
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    gap: 1.5vw;
+    color: white;
+    animation: fadeIn 3s ;
+
+}
+
+.header-content h1{
+
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+
+.header-content p{
+
+    font-size: 1vw;
+    font-weight: 500;
+    
+}
+
+
+button{
+
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border:2px solid white;
+    transition: all 0.5s ease-in-out;
+
+}
+
+button:hover{
+
+    color: tomato;
+    background-color: white;
+
+}
+
+@media(max-width:2050px){
+
+.header-content{
+
+    position: absolute;
+    bottom: 40%;
+
+}
+}
+@media(max-width:1050px)  {
+
+
+
+
+    
+}
+
+@media(max-width:750px)  {
+
+     
+
+    .header .container{
+
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .header-content p{
+
+        display: none;
+    }
+    .header-content h1{
+
+        font-size: 3.5vw;
+    }
+
+    .header-content button{
+
+         padding: 2px 4px;
+         font-size: 10px;
+         
+    }
+
+    
+}
+
